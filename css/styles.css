@@ -550,6 +550,10 @@ body footer {
     width: auto;
     text-align: center;
   }
+  body main .section-3 .info-3 p {
+    text-align: center;
+    padding-right: 0px;
+  }
   body main .section-3 .formulario-2 {
     width: auto;
     align-items: center;
@@ -562,5 +566,39 @@ body footer {
   }
   body main body main .final .info-final .contacto {
     width: 35%;
+  }
+}
+@media (max-width: 780px) {
+  body main .final .info-final .contacto {
+    width: 45%;
+  }
+}
+@media (max-width: 690px) {
+  body main .final .info-final {
+    flex-direction: column;
+  }
+  body main .final .info-final .contacto {
+    width: auto;
+  }
+  body main .final .info-final .blog {
+    width: auto;
+    margin-top: 50px;
+  }
+  body main .final .info-final .blog .list {
+    width: auto;
+    padding-left: 0px;
+  }
+  body main .final .info-final .privacidad {
+    width: auto;
+    margin-top: 50px;
+  }
+  body main .final .info-final .privacidad ul {
+    padding-left: 0px;
+  }
+  body main .final .info-final .r-sociales {
+    width: auto;
+    margin-top: 20px;
+    flex-direction: row;
+    justify-content: center;
   }
 }

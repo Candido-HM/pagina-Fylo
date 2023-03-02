@@ -660,6 +660,11 @@ body {
                 .info-3 {
                     width: auto;
                     text-align: center;
+
+                    p {
+                        text-align: center;
+                        padding-right: 0px;
+                    }
                 }
 
                 .formulario-2 {
@@ -685,6 +690,50 @@ body {
 
 @media (max-width: 780px){
     body main .final .info-final .contacto {
-        width: 40%;
+        width: 45%;
+    }
+}
+
+@media (max-width: 690px){
+    body {
+
+        main {
+
+            .final{
+
+                .info-final {
+                    flex-direction: column;
+
+                    .contacto {
+                        width: auto;
+                    }
+
+                    .blog {
+                        width: auto;
+                        margin-top: 50px;
+
+                        .list {
+                            width: auto;
+                            padding-left: 0px;
+                        }
+                    }
+
+                    .privacidad{
+                        width: auto;
+                        margin-top: 50px;
+                        ul {
+                            padding-left: 0px;
+                        }
+                    }
+
+                    .r-sociales{
+                        width: auto;
+                        margin-top: 20px;
+                        flex-direction: row;
+                        justify-content: center;
+                    }
+                }
+            }
+        }
     }
 }
