@@ -652,4 +652,16 @@ body footer {
   body main .section-3 .formulario-2 input {
     height: 30px;
   }
+  footer {
+    text-align: left;
+    font-size: 14px;
+  }
+}
+@media (max-width: 365px) {
+  body header .logo a img {
+    width: 100px;
+  }
+  body header .menu {
+    width: auto;
+  }
 }
