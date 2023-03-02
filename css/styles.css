@@ -602,3 +602,36 @@ body footer {
     justify-content: center;
   }
 }
+@media (max-width: 500px) {
+  body header .logo {
+    padding-left: 0px;
+  }
+  body header menu {
+    padding-right: 0px;
+  }
+  body main .section-1 .info-1 .formulario {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  body main .section-1 .info-1 .formulario input {
+    width: auto;
+    height: 30px;
+    margin-right: 0px;
+    margin-bottom: 30px;
+  }
+  body main .section-1 .info-1 .formulario button {
+    width: auto;
+    height: 40px;
+  }
+  body main .section-3 .formulario-2 input {
+    height: 40px;
+    padding-left: 0px;
+    font-size: 15px;
+    padding: 5px;
+  }
+  body main .section-3 .formulario-2 button {
+    height: 40px;
+  }
+}
