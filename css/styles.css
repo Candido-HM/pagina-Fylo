@@ -635,7 +635,7 @@ body footer {
     height: 40px;
   }
 }
-@media (max-width: 410px) {
+@media (max-width: 414px) {
   body header {
     height: auto;
     padding: 10px;
@@ -644,6 +644,12 @@ body footer {
     padding-right: 0px !important;
   }
   body main {
-    padding: 0px;
+    padding: 0px !important ;
+  }
+  body main .section-1 .info-1 {
+    text-align: center;
+  }
+  body main .section-3 .formulario-2 input {
+    height: 30px;
   }
 }
