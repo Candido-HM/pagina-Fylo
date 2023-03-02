@@ -635,3 +635,8 @@ body footer {
     height: 40px;
   }
 }
+@media (max-width: 410px) {
+  body header .menu {
+    padding-right: 0px !important;
+  }
+}
