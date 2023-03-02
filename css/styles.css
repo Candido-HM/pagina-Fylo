@@ -636,7 +636,14 @@ body footer {
   }
 }
 @media (max-width: 410px) {
+  body header {
+    height: auto;
+    padding: 10px;
+  }
   body header .menu {
     padding-right: 0px !important;
+  }
+  body main {
+    padding: 0px;
   }
 }
